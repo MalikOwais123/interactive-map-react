@@ -1,0 +1,41 @@
+.user-info-main-container {
+  width: 180px;
+  height: 180px;
+  border-radius: 16px;
+  padding: 10px 10px 10px 10px;
+}
+.user-info-main-container .user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.user-info-main-container .user-name {
+  margin: 10px;
+}
+.user-info-main-container .user-info .user-avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.user-info-main-container .user-locations-main .user-location-info {
+  display: flex;
+}
+.user-info-main-container .user-locations-main .user-location-info img {
+  width: 12px;
+}
+.user-info-main-container .user-locations-main .user-location-info p {
+  margin: 4px;
+  margin-left: 10px;
+}
+
+/* GLOBAL */
+
+.mapboxgl-popup-content {
+  border-radius: 14px !important;
+}
+.mapboxgl-popup-close-button{
+  font-size: 26px;
+  opacity: 0.5;
+}

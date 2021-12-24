@@ -47,7 +47,7 @@ const MapShow = () => {
       <ReactMapGL
         {...viewport}
         onViewportChange={(viewport) => setViewport(viewport)}
-        mapStyle={"mapbox://styles/muhammadowais/ckwg6vdvg5ndc14mprfnb3g1a"}
+        // mapStyle={"mapbox://styles/muhammadowais/ckwg6vdvg5ndc14mprfnb3g1a"}
         mapboxApiAccessToken={process.env.REACT_APP_MAP_KEY}>
         {" "}
         {/* MAP SOMETHING AS MARKERS */}
